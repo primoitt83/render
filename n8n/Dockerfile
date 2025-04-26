@@ -1,4 +1,4 @@
-FROM docker.n8n.io/n8nio/n8n:latest
+FROM docker.n8n.io/n8nio/n8n:1.88.0
 
 ENV \                     
     - N8N_HOST=n8n-fjrp.onrender.com && \
