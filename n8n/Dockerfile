@@ -9,12 +9,12 @@ ENV \
     - DB_POSTGRESDB_USER=meupostgres && \       
     - DB_POSTGRESDB_PASSWORD=cLnHE9kOkqg6ut3POER93K7iHYw4aHeN && \
     ## n8n                         
-    - N8N_HOST=n8n.local && \
+    - N8N_HOST=n8n-fjrp.onrender.com && \
     - N8N_PORT=5678 && \                    
-    - N8N_PROTOCOL=http && \                        
+    - N8N_PROTOCOL=https && \                        
     - N8N_RUNNERS_ENABLED=true && \
     - NODE_ENV=production && \             
-    - WEBHOOK_URL=http://n8n.local:5678 && \
+    - WEBHOOK_URL=https://n8n-fjrp.onrender.com && \
     - TZ=America/Sao_Paulo && \
     - GENERIC_TIMEZONE=America/Sao_Paulo && \
     - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
